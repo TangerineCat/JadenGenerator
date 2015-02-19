@@ -2,7 +2,7 @@ import json
 from pymarkovchain import MarkovChain
 import re
 
-filename = 'jaydentweets.json'
+filename = 'jadentweets.json'
 statuses = json.loads(open(filename).read())
 
 tweets = []
